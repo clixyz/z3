@@ -136,6 +136,10 @@ See [``examples/c++``](examples/c++) for examples.
 
 Use the ``--java`` command line flag with ``mk_make.py`` to enable building these.
 
+### ``Android``
+
+The Android binding requires the CMake build system and Android SDK and NDK to be installed. Use ``./scripts/build_android.sh -h``.
+
 See [``examples/java``](examples/java) for examples.
 
 ### ``OCaml``

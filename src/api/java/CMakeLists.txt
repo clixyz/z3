@@ -1,4 +1,9 @@
 find_package(Java REQUIRED)
+# We do not need AWT
+set(JAVA_AWT_LIBRARY NotNeeded)
+set(JAVA_JVM_LIBRARY NotNeeded)
+set(JAVA_INCLUDE_PATH2 NotNeeded)
+set(JAVA_AWT_INCLUDE_PATH NotNeeded)
 find_package(JNI REQUIRED)
 include(UseJava)
 
